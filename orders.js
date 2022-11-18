@@ -16,7 +16,7 @@
     called `status` that always has an initial
     value of 'queued'.
 
-    Create a method on the class called `updateStatus`.
+    Create a method on the class called `updateStatus`
     The method should have one parameter, `newStatus`,
     which will be a string.
 
