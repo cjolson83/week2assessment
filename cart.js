@@ -95,6 +95,9 @@ married?: whether a person is single or married may inform buying decisions
     Now, create a customer object following your own
     guidelines.
 */
+                                                                            
+
+//CODE HERE
 
 const customer = {
     age: 27,
@@ -102,6 +105,3 @@ const customer = {
     income: 54000,
     married: true,
 }
-
-
-//CODE HERE

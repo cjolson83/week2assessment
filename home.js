@@ -128,12 +128,14 @@ const deals = [
 
 //CODE HERE
 
-
-for (let title in deals) {
-       const newDeal = title.replace('15', '10') 
-    }
-
+deals[0].title = deals[0].title.replace("15", "10")
 console.log(deals)
+
+// for (let title in deals)
+//     { title.replace('15', '10')}
+    
+
+// console.log(deals)
 
 /*
     The restaurant is going to continue its
@@ -149,3 +151,7 @@ console.log(deals)
 */
 
 //CODE HERE
+
+deals[1].desc = deals[1].desc.replace("March", "April").trim()
+
+console.log(deals)
